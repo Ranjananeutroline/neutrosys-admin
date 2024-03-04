@@ -1,0 +1,101 @@
+
+
+.closeIconInOtpPage{
+  /* position: absolute; */
+  /* top: -5px;
+  left: 88%; */
+}
+
+@media (max-width: 600px) {
+  /* .closeIconInOtpPage {
+    margin-right: 10px;
+  } */
+}
+.customModal{
+overflow-x: hidden;
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(184, 4, 4, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .inputStyle {
+    /* width: 100% !important; */
+    /* width: 15% !important; */
+   
+    width: 12% !important;
+    color: blue;
+    height: 39px;
+    /* width: 30px; */
+    /* text-align: center; */
+    border: "1px solid #DDE7F2";
+    box-shadow: "2px 2px 4px 0px rgba(0, 0, 0, 0.12) inset";
+    padding: 10px;
+    border-radius: 6px;
+    border: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: #efeeee;
+    font-size: 20px;
+    
+  }
+  .inputStyle:focus {
+    background-color: #F6F6F6;
+  }
+.containerStyle{
+  display: flex;
+  justify-content: center
+  ;
+  /* width: 400px; */
+  max-width: 400px;
+  margin: 10px auto;
+}
+.otpOverlay{
+  background: rgba(0, 0, 0, 0.5)!important;
+  backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 800px){
+  .otpModal{
+    width: 55%!important;
+  }
+}
+@media only screen and (max-width: 695px){
+  .otpModal{
+    width: 60%!important;
+  }
+}
+@media only screen and (max-width: 639px){
+  .otp-submit{
+    width: 95px;
+  }
+}
+@media only screen and (max-width: 575px){
+  .otpModal{
+    width: 65%!important;
+  }
+}
+@media only screen and (max-width: 500px){
+  .otpModal{
+    width: 75%!important;
+  }
+}
+@media only screen and (max-width: 475px){
+  .otpModal{
+    width: 85%!important;
+  }
+}
+@media only screen and (max-width: 385px){
+  .otpModal{
+    width: 88%!important;
+  }
+}

@@ -1,0 +1,760 @@
+.react-calendar{
+ margin-top: 2rem;
+  position: absolute;
+  border: 1px solid;
+  background: #edf6f979;
+  border-radius: 15px;
+  height: 353px;
+  width: 480px;
+  border: 1px solid #adb5bd2f;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.react-calendar:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px!important;
+}
+.times{
+ margin-top: 2rem;
+  background: white;
+  position: relative;
+  height: 353px;
+  width: 480px;
+  border: 1px solid rgba(175, 170, 170, 0.384);
+ border-radius: 15px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.times:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px!important;
+}
+.react-calendar__navigation{
+  text-align: center!important;
+}
+.react-calendar__viewContainer{
+  padding: 0 1rem 1rem 1rem;
+}
+
+.react-calendar__navigation button {
+  color: #19A7CE;
+  min-width: 44px;
+  background:none;
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: bold;
+ }
+
+ abbr[title]{
+  text-decoration: none!important;
+  font-size: 12px!important;
+  font-family: sans-serif!important;
+ }
+ /* .react-calendar--doubleView {
+  width: 700px;
+} */
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  padding: 1.5rem 4rem 0.5rem 4rem;
+  margin-bottom: 1.8em;
+}
+.react-calendar__navigation button {
+  min-width: 40px!important;
+  /* background: none; */
+}
+ .react-calendar__navigation button:enabled:hover{
+  background-color: #c4bebe60;
+  border-radius: 10px;
+ }
+ button.react-calendar__navigation__label {
+  pointer-events: none!important;
+ }
+/* .react-calendar__navigation button:enabled:focus {
+  pointer-events: none!important;
+}   */
+ .react-calendar__navigation button[disabled] {
+  background-color: none!important;
+  color: #19a7ce41!important;
+} 
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12.5px;
+  padding: 0 1rem;
+}
+.react-calendar__month-view__weekdays{
+  pointer-events: none!important;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+  
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75);
+ 
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #da4444a8; 
+  /* color: black; */
+  pointer-events: none;
+}
+.react-calendar__month-view__days{
+  line-height: 16.1px;
+  margin-top: 5px;
+  padding: 0 1rem;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: white;
+  visibility: hidden;
+}
+div.react-calendar__year-view__months{
+  padding: 1rem 1.5rem;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 1em 0;
+  display: none;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  background: none;
+  font-size: 14.3px;
+}
+.react-calendar__tile:disabled {
+  background: none;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+.react-calendar__tile--now {
+  border-radius: 5px;
+  background: #19A7CE;
+  color: white!important;
+}
+/* .react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+  border-radius: 5px;
+} */
+.react-calendar__tile--hasActive {
+  background: #76baff;
+  color: white;
+  border-radius: 5px;
+}
+/* .react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+  border-radius: 5px;
+} */
+.react-calendar__tile--active {
+  /* background: #19A7CE; */
+  color: black;
+  border-radius: 5px;
+}
+/* .react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+  border-radius: 5px;
+} */
+/* .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+} */
+
+.date-div{
+  /* text-align: center; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* background: aliceblue; */
+  padding: 0 1rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #f8f9fa;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding-bottom: 0.8rem;
+  height: 100px!important;
+}
+
+.backbtn
+{
+  padding: 4px 12px!important;
+  border: none!important;
+  border-radius: 10px!important; 
+  margin-top: 1.5rem!important;
+  margin-left: 0.8rem!important;
+ background: none!important;
+ position: absolute!important; 
+ 
+}
+.backbtn:hover.backbtn svg{
+/* background: #e2e4e765!important; */
+color: rgba(128, 128, 128, 0.788)!important;
+font-weight: bolder!important;
+/* transition-timing-function: ease-in!important; */
+transition: 2s!important;
+transform: translate(-.25rem)!important;
+stroke-width: 1.5!important;
+}
+.backbtn svg{
+  font-size: 18px!important;
+  margin: 3px 0 4px 0!important;
+  background: none!important;
+  /* font-weight: bolder!important; */
+}
+
+.date-p{
+  text-align: center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-top: 2rem;
+  font-family: sans-serif;
+  /* color: #00a8e8; */
+  /* color: #57cc99; */
+  color: #00bbf9;
+  font-size: 17px;
+  /* font-weight: bold; */
+}
+.date-p svg{
+margin-top: 3px;
+} 
+.timeslot-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 0.5rem 1rem;
+  /* border-top: 1px solid rgba(175, 170, 170, 0.322);
+  border-bottom:  1px solid rgba(175, 170, 170, 0.322); */
+  max-height: 155px;
+  overflow: auto;
+  /* border-bottom: 1px solid gainsboro; */
+}
+.space{
+  margin: 0.5rem 0.5rem 0.2rem 0.5rem;
+ 
+}
+.time-btn{
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  border: 2px solid #5fa8d33d;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+ .time-btn:hover{
+  background-color: #5fa8d380!important;
+}
+.btn-width{
+  width: 90px;
+}
+/* .time-btn:focus{
+background-color: #5fa8d3!important; 
+color: white!important;
+border: none!important;
+}    */
+.new-time-btn{
+  background-color: #5fa8d3!important; 
+  border: 2px solid #5fa8d33d;
+  padding: 6px 12px;
+  font-size: 13.5px;
+  border-radius: 8px;
+  color: white!important;
+  border: none!important;
+} 
+.timeslot-div::-webkit-scrollbar{
+  width: 7px;
+}
+.timeslot-div::-webkit-scrollbar-track {
+ 
+  background: rgba(128, 128, 128, 0.24);
+}
+
+.timeslot-div::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 10px; 
+}  
+.book-div{
+  text-align: center;
+}
+.bookbtn-div{
+  text-align: center;
+  margin-top: 1.3rem;
+ 
+ 
+}
+.set-p{
+color: #0076b6a1;
+font-family: sans-serif;
+font-size: 15px!important;
+margin-left: 5rem;
+padding-top: 5px;
+text-align: center;
+margin: auto;
+display: flex;
+gap: 5px;
+justify-content: center;
+}
+.set-p svg{
+margin-top: 3px!important;
+font-size: 16px!important;
+}
+.bookbtn{
+  padding: 10px 18px!important;
+  font-family: sans-serif!important;
+  background: #3da5d9!important;
+  color: white!important;
+  border-radius: 10px!important;
+  font-weight: 550!important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px!important;
+  text-transform: none!important;
+
+}
+.bookbtn:hover{
+  background: #5bc0eb!important;
+  color: rgba(41, 40, 40, 0.616)!important;
+}
+
+
+
+
+@media only screen and (max-width: 975px){
+.react-calendar,.times{
+  width: 460px!important;
+}
+.timeslot-div{
+  padding: 0.5rem 2rem!important;
+  max-height: 165px!important;
+}
+
+}
+@media only screen and (max-width: 890px){
+.react-calendar,.times{
+  width: 440px!important;
+}
+.timeslot-div{
+  padding: 0.5rem 1.5rem!important;
+ 
+}
+}
+@media only screen and (max-width: 850px){
+.react-calendar,.times{
+  width: 410px!important;
+}
+.react-calendar__viewContainer{
+  padding: 0!important;
+}
+.react-calendar__navigation {
+  padding: 1.5rem 3rem 0.5rem 3rem!important;
+}
+.space {
+  margin: 0.5rem 0rem 0.2rem 0rem!important;
+}
+}
+@media only screen and (max-width: 790px){
+.react-calendar,.times{
+  width: 400px!important;
+}
+.react-calendar__navigation {
+  padding: 1.5rem 2rem 0.5rem 2rem!important;
+}
+}
+@media only screen and (max-width: 760px){
+.react-calendar,.times{
+  width: 390px!important;
+}
+.date-p{
+  font-size: 15px!important;
+}
+.set-p{
+  font-size: 13px!important;
+}
+}
+@media only screen and (max-width: 730px){
+.react-calendar,.times{
+  width: 370px!important;
+
+}
+.time-btn{
+  padding: 8px 16px!important;
+}
+.new-time-btn{
+  padding: 8px 16px!important;
+}
+.timeslot-div{
+  max-height: 175px!important;
+  padding: 0.5rem 1rem!important;
+}
+}
+@media only screen and (max-width: 690px){
+.react-calendar,.times{
+  width: 350px!important;
+}
+.timeslot-div{
+  padding: 0.5rem 0.5rem!important;
+}
+}
+@media only screen and (max-width: 630px){
+.react-calendar{
+  margin: auto!important;
+  height: 353px!important;
+  width: 83%!important;
+  background: #edf6f9;
+}
+.times{
+height: 353px!important;
+width: 102.5%!important;
+}
+.timeslot-div{
+padding: 0.5rem 3rem!important;
+}
+.space {
+margin: 0.5rem 0.2rem 0.2rem 0.2rem!important;
+}
+.set-p{
+font-size: 13.5px!important;
+}
+.time-btn{
+padding: 8px 20px!important;
+}
+.new-time-btn{
+  padding: 8px 20px!important;
+  }
+}
+ @media only screen and (max-width: 600px){
+  .timeslot-div{
+    padding: 0.5rem 2rem!important;
+    }
+} 
+/* @media only screen and (max-width: 530px){
+ .react-calendar,.times{
+  width: 440px!important;
+} 
+.timeslot-div{
+padding: 0.5rem 2rem!important;
+}
+} */
+@media only screen and (max-width: 500px){
+.timeslot-div{
+padding: 0.5rem 1rem!important;
+}
+.time-btn{
+  padding: 8px 18px!important;
+}
+.new-time-btn{
+  padding: 8px 18px!important;
+}
+}
+@media only screen and (max-width: 506px){
+  .timeslot-div{
+  padding: 0.5rem 0.8rem!important;
+  }
+  }
+  @media only screen and (max-width: 530px){
+    .backbtn{
+      margin-left: 0.5rem!important;
+    }
+    }
+@media only screen and (max-width: 480px){
+.times{
+ width: 103.2%!important;
+}  
+.react-calendar__month-view__weekdays, .react-calendar__month-view__days{
+padding: 0 0.3rem!important;
+}
+button.react-calendar__navigation__label{
+  font-size: 15.5px!important;
+}
+/* .timeslot-div{
+padding: 0.5rem 1rem!important;
+} */
+}
+@media only screen and (max-width: 447px){
+  .timeslot-div{
+  padding: 0.5rem 0.8rem!important;
+  }
+  .time-btn{
+    padding: 8px 15px!important;
+  }
+  .new-time-btn{
+    padding: 8px 15px!important;
+  }
+  }
+@media only screen and (max-width: 445px){
+.react-calendar{
+ width: 93%!important;
+} 
+}
+@media only screen and (max-width: 456px){
+  .timeslot-div{
+    padding: 0.5rem 0.5rem!important;
+    }
+  }
+@media only screen and (max-width: 430px){
+  .react-calendar{
+    height: 345px!important;
+  }
+.times{
+ width: 99.5%!important;
+ height: 345px!important;
+}  
+.react-calendar__navigation button{
+font-size: 16px!important;
+}
+abbr[title]{
+font-size: 11.5px!important;
+}
+.react-calendar__tile{
+font-size: 13.5px!important;
+}
+.react-calendar__viewContainer{
+padding: 0 10px!important;
+}
+.timeslot-div{
+padding: 0.5rem 1rem!important;
+}
+.time-btn{
+padding: 8px 15px!important;
+}
+.new-time-btn{
+  padding: 8px 15px!important;
+  }
+.bookbtn-div{
+  margin-top: 0.5rem!important;
+}
+}
+@media only screen and (max-width: 415px){
+/* .react-calendar,.times{
+  width: 370px!important;
+}  */
+.timeslot-div{
+padding: 0.5rem 0.8rem!important;
+}
+.time-btn{
+padding: 8px 17px!important;
+font-size: 15px!important;
+}
+.new-time-btn{
+  padding: 8px 17px!important;
+  font-size: 15px!important;
+  }
+.react-calendar__navigation {
+padding: 1.5rem 0.5rem 0.5rem 0.5rem!important;
+}
+.timeslot-div{
+max-height: 173px!important;
+}
+}
+@media only screen and (max-width: 406px){
+  .timeslot-div{
+    padding: 0.5rem 0.6rem!important;
+    }
+}
+@media only screen and (max-width: 400px){
+  .react-calendar,.times{
+    height: 335px!important;
+  }
+.space {
+margin: 0.5rem 0 0.2rem 0!important;
+}
+abbr[title]{
+  font-size: 11px!important;
+  }
+  .react-calendar__tile{
+    font-size: 12px!important;
+    }
+    .date-p{
+      font-size: 13.5px!important;
+    }
+    .set-p{
+      font-size: 12px!important;
+      padding-top: 8px!important;
+    }
+    .time-btn{
+      font-size: 14px!important;
+    }
+    .new-time-btn{
+      font-size: 14px!important;
+    }
+    .timeslot-div{
+      max-height: 170px!important;
+    }
+}
+@media only screen and (max-width: 395px){
+/* .react-calendar,.times{
+ width: 350px!important;
+}  */
+.react-calendar__navigation button{
+font-size: 15px!important;
+}
+abbr[title]{
+font-size: 11.2px!important;
+}
+.react-calendar__tile{
+font-size: 13px!important;
+}
+.react-calendar__viewContainer{
+padding: 0 5px!important;
+}
+
+.timeslot-div{
+max-height: 168px!important;
+}
+}
+@media only screen and (max-width: 385px){
+  .backbtn{
+    margin-top: 1rem!important;
+  }
+}
+@media only screen and (max-width: 375px){
+  .react-calendar{
+    height: 327px!important;
+  }
+  .times{
+    width: 98%!important;
+    height: 327px!important;
+  }
+.react-calendar__navigation button{
+font-size: 14px!important;
+}
+abbr[title]{
+font-size: 11px!important;
+}
+.react-calendar__tile{
+font-size: 12px!important;
+}
+.react-calendar__viewContainer{
+padding: 0 5px!important;
+}
+.bookbtn{
+  font-size: 12px!important;
+}
+.book-div{
+  margin-top: 0.8rem!important;
+}
+ .timeslot-div{
+padding: 0.5rem 0.3rem!important;
+max-height: 160px!important;
+} 
+
+.time-btn{
+  padding: 7px 15px!important;
+}
+.new-time-btn{
+  padding: 7px 15px!important;
+}
+}
+@media only screen and (max-width: 364px){
+  .btn-width{
+    width: 65px;
+  }
+}
+@media only screen and (max-width: 345px){
+ .timeslot-div{
+  padding: 0.5rem 0.8rem!important;
+  max-height: 160px!important;
+  }     
+.time-btn{
+  padding: 7px 12px!important;
+  font-size: 13px!important;
+}
+.new-time-btn{
+  padding: 7px 12px!important;
+  font-size: 13px!important;
+}
+.book-div{
+  margin-top: 0.5rem!important;
+}
+.date-p{
+  font-size: 13px!important;
+}
+.set-p{
+  font-size: 11.5px!important;
+}
+}
+@media only screen and (max-width: 337px){
+  .react-calendar__navigation button {
+    font-size: 12.5px!important;
+    min-width: 40px!important;
+}
+}
+@media only screen and (max-width: 315px){
+  .timeslot-div{
+    max-height: 155px!important;
+  }
+  .book-div{
+    margin-top: 0.8rem!important;
+  }
+}
+@media only screen and (max-width: 316px){
+  .timeslot-div{
+    padding: 0.5rem 0.3rem!important;
+    }
+}
+@media only screen and (max-width: 299px){
+  .btn-width{
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 295px){
+  .react-calendar,.times{
+    height: 315px!important;
+  }
+  .react-calendar__navigation button{
+    font-size: 12.5px!important;
+    }
+    abbr[title]{
+    font-size: 10.5px!important;
+    }
+    .react-calendar__tile{
+    font-size: 11.5px!important;
+    }
+    .time-btn{
+      padding: 6px 10px!important;
+      font-size: 12px!important;
+    }
+    .new-time-btn{
+      padding: 6px 10px!important;
+      font-size: 12px!important;
+    }
+    .timeslot-div{
+      max-height: 145px!important;
+    }
+    .react-calendar__navigation {
+      padding: 1.5rem 0 0.2rem 0!important;
+    }
+    .react-calendar__navigation button {
+      min-width: 43px!important
+    }
+}

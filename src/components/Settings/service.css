@@ -1,0 +1,99 @@
+.customButton {
+ 
+  margin-right: -6px;
+}
+.customModal {
+  background:none;
+  padding:0;
+}
+.add-service{
+  margin-top: 1rem;
+}
+.add-new-service{
+  background: rgba(0, 0, 0, 0.527)!important;
+}
+.preview{
+    background: rgba(0, 0, 0, 0.527)!important;
+}
+.service-delete{
+  background: rgba(0, 0, 0, 0.527)!important;
+}
+.new-s:hover{
+  color: #4CB9E7;
+}
+
+
+@media only screen and (max-width: 1075px){
+  .action-inner{
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 870px){
+  .action-inner{
+    width: 130px;
+}
+}
+@media only screen and (max-width: 830px){
+  .action-inner{
+    width: 110px;
+}
+}
+@media only screen and (max-width: 767px){
+  .s-id{
+    width: 55px;
+  }
+  .s-act{
+    width: 115px;
+  }
+}
+@media only screen and (max-width: 665px){
+ .s-th{
+  font-size: 13px;
+ }
+ .s-id{
+  width: 40px;
+}
+.s-act{
+  width: 95px;
+}
+.action-inner{
+  width: 80px;
+  gap: 5px!important;
+}
+}
+@media only screen and (max-width: 620px){
+  .add-service{
+    width: 95%!important;
+  }
+}
+@media only screen and (max-width: 555px){
+  .action-inner {
+    width: 94px;
+}
+.s-id{
+  width: 35px;
+}
+.s-th{
+  font-size: 12px;
+ }
+ .v-bg {
+  width: 27px;
+ }
+ .v-circle{
+  width: 13px;
+  left: -5px;
+ }
+}
+@media only screen and (max-width: 530px){
+  .action-inner {
+    width: 85px;
+}
+.s-act{
+  width: 88px;
+}
+}
+@media only screen and (max-width: 485px){
+  .add-service{
+    width: 98%;
+  }
+}

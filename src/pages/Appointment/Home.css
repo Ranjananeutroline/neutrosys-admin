@@ -1,0 +1,76 @@
+.custom-modal-content {
+  /* Your custom styles for the AddAppointment component inside the Modal */
+  background-color: #f5f5fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+  /* Add other custom styles here */
+}
+.customModal {
+  background-color: #f5f5fa;
+}
+.appointment-main{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  /* background: #f3f7f9b0; */
+}
+.add-appoint-btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #614BC3;
+}
+
+
+@media screen and (max-width: 1040px){
+  .appointment-main{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+}
+@media screen and (max-width: 1015px){
+  .appointment-main{
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+}
+@media only screen and (max-width: 795px) {
+  .appointment-main{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+  
+}
+@media screen and (max-width: 915px){
+  .select-appoint-div{
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    gap: 0.5rem;
+  }
+  .search-div{
+    justify-content: left;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 768px){
+  .t-select{
+    width: 55%;
+  }
+  .t-select button{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 477px){
+  .t-select button{
+   padding: 0.8rem!important;
+   font-size: 13px!important;
+  }
+}
+@media screen and (max-width: 425px){
+  .t-select button{
+   padding: 0.6rem!important;
+   font-size: 13px!important;
+  }
+}
+

@@ -1,0 +1,126 @@
+/* .customButton {
+    top: 5px;
+    right: 8px;
+    padding: 3px;
+    font-size:12px;
+   
+   
+  } */
+  .bhours-edit{
+    background: rgb(0 0 0 / 59%)!important;
+  }
+  
+  .bhours-schedule{
+    background: rgba(0, 0, 0, 0.527)!important;
+  }
+  .customModal {
+    background:none;
+    padding:0;
+  }
+  .b-days{
+    text-align: center;
+    gap: 0;
+  }
+  .bhour-edit-btn{
+    display: none;
+    margin-right: 1rem;
+  }
+  .b-hours-main:hover .bhour-edit-btn{
+    display: block;
+  }
+  .bhours-schedule-modal{
+    margin-top: 1rem;
+  }
+  .bhour-text:hover{
+    color: #4CB9E7;
+  }
+
+
+  @media only screen and (max-width: 1075px){
+    .b-days-t{
+      gap: 1rem!important;
+    }
+    .b-days-t h3{
+      /* border: 1px solid; */
+    }
+    .b-days{
+      text-align: center;
+      /* border: 1px solid; */
+    }
+    .bhour-edit-btn{
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 943px){
+    .b-days{
+      gap: 0;
+    }
+  }
+  @media only screen and (max-width: 840px){
+    .b-hours-main{
+      padding: 1.5rem 0.8rem!important;
+    }
+  }
+  @media only screen and (max-width: 815px){
+   .b-title{
+    font-size: 20px;
+   }
+   .b-days-t{
+    gap: 15px!important;
+   }
+   .b-days-t h3 {
+    font-size: 13.5px; 
+    width: 100px;
+    }
+    .b-days h2{
+      font-size: 12.5px;
+    }
+    .whrs-w{
+      width: 130px;
+    }
+    .s-svg{
+      padding-bottom: 2px;
+    }
+  }
+  @media only screen and (max-width: 649px){
+    .bus-days{
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 570px){
+    .b-title{
+     font-size: 18px;
+    }
+    .b-days-t h3 {
+     font-size: 13px; 
+     }
+     .b-days h2{
+       font-size: 11.5px;
+       padding-top: 2px;
+     }
+   }
+   @media only screen and (max-width: 590px){
+    .edit-bhour-modal{
+      width: 95%;
+      margin: auto;
+    }
+   }
+   @media only screen and (max-width: 580px){
+    .bhours-schedule-modal{
+      width: 95%;
+      margin: 1rem auto;
+    }
+    .schedule-main{
+      width: 100%;
+    }
+   }
+   @media only screen and (max-width: 525px){
+    .inner-schedule{
+      margin: 0.8rem!important;
+    }
+   }
+   @media only screen and (max-width: 445px){
+    .edit-bhour-modal{
+      width: 98%;
+    }
+   }

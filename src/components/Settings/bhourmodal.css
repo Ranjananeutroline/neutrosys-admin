@@ -1,0 +1,352 @@
+.modal {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.react-responsive-modal-closeButton {
+  top: 5x !important;
+  right: 8px;
+  padding: 10px;
+  width: 40px;
+}
+.modalContainer {
+  width: 578px;
+  background: #C0DBEA;
+  border-radius: 12px;
+  /* background-color: #c7d4ed; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 1px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 30px 30px;
+}
+
+.modalContainer .title {
+  display: flex;
+  font-weight: 400;
+  font-size: 22px;
+  color: #0c1a97;
+  align-items: center;
+  gap: 8px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.business_days {
+  background-color: #f8f9fa;
+  display: flex;
+  gap: 2rem;
+  /* justify-content: space-between;  */
+  align-items: flex-start;
+  width: 520px;
+  padding: 10px 12px 10px 12px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+}
+.edit {
+  display: flex;
+  align-items: start;
+  gap: 7px;
+
+margin-right: 28px;
+}
+
+.business_days h2 {
+  width: 120px;
+ margin-top: 8px;
+
+}
+
+.select_days {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+.select_days p {
+  font-size: 12px;
+}
+
+.select_days select {
+  height: 30px;
+  border-style: solid;
+  border: 1px solid #80808038;
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+  width: 95px;
+}
+.days {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: row;
+  width: 520px;
+  height:100%;
+  padding: 0px 10px 0px 10px;
+  margin-top: 10px;
+  border-style: solid;
+  border: 1px solid #80808038;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.button_days {
+  display: flex;
+  gap: 10px;
+  width: 387px;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.button_days button {
+  border: 1px solid #a9a9a9;
+  /* background-color: #89CFF3; */
+  background:#ccd5f2;
+  border-radius: 3px;
+  padding: 0px 3px 0px 3px;
+  height: 30px;
+  width: 45px;
+  font-size: 12px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+  color: rgb(0, 0, 0);
+}
+.button_days button:focus {
+  background: rgba(152, 177, 244, 0.63);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.days_edit {
+  width: 387px;
+  height: 92px;
+  border-radius: 6px;
+  border: 0.5px solid #d6d6d6;
+  background: rgba(189, 206, 252, 0.3);
+  margin-top: 12px;
+}
+.work_hours {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-top: 10px;
+}
+.work_hours h2 {
+  width: 100px;
+  font-size: 13px;
+}
+.select_time {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.select_time select {
+  display: flex;
+  width: 95px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 3px; */
+  border: 1px solid #80808038;
+  font-size: 11px;
+  padding: 0 5px 0 5px;
+}
+.select_time p {
+  font-size: 12px;
+}
+.select_days select {
+  background: rgb(0 0 0 / 3%);
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  /* background: #eaedf1; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* SVG background image */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: 0.6em;
+  background-position: calc(100% - 0.5em) center;
+  background-repeat: no-repeat;
+  position: relative;
+     z-index: 1;
+  border-radius: 5px;
+  
+}
+.select_time select {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  /* background: #eaedf1; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: 0.6em;
+  background-position: calc(100% - 0.5em) center;
+  background-repeat: no-repeat;
+  position: relative;
+     z-index: 1;
+}
+.selected-day {
+  background:#00A9FF  !important;
+  /* background:#A7D397!important; */
+  color: rgb(245, 243, 243) !important;
+
+}
+.day-button {
+  background-color: #ccd5f2; /* Default background color */
+  color: #333; /* Default text color */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.day-button:hover {
+  /* background-color: #a0b9ef; */
+  background:#ced1d3;
+}
+.weekend-day {
+  background-color: #dfd2e7; /* Set your desired background color */
+}
+.clicked-day {
+  /* border: 2px solid #A3B763 !important; */
+  border: 2px solid #0174BE!important;
+}
+.disabled-day {
+  cursor: not-allowed;
+  opacity: 0.5; 
+  /* Add any other styles you want for disabled buttons */
+}
+
+.custom-timezone-select .css-13cymwt-control {
+  background-color: #f8f9fa!important;
+  height: 40px!important;
+  border-radius: 6px!important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px!important;
+}
+
+.custom-timezone-select .css-1dimb5e-singleValue{
+  margin-bottom: 12px!important;
+}
+.custom-timezone-select .css-1hb7zxy-IndicatorsContainer{
+  height: 40px!important;
+}
+
+
+@media only screen and (max-width: 615px){
+  .modalContainer{
+    width: 100%;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 590px){
+  .modalContainer{
+   margin: auto;
+  }
+ .days{
+  width: 100%;
+  gap: 0;
+ }
+ .button_days{
+  margin-left: 30px;
+ }
+ .business_days{
+  width:100%
+ }
+}
+@media only screen and (max-width: 545px){
+  .button_days{
+    margin-left: 25px;
+    gap: 0!important;
+    width: 355px;
+  }
+  .work-hrs-div{
+    margin-left: 25px;
+  }
+ 
+}
+@media only screen and (max-width: 505px){
+  .button_days{
+    width: 340px;
+  }
+  .work-hrs-div{
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 505px){
+  .modalContainer{
+    padding: 20px 10px;
+  }
+}
+@media only screen and (max-width: 540px){
+  .business_days{
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 490px){
+  .business_days{
+    gap: 0;
+  }
+  .business_days h2{
+    font-size: 14px;
+  }
+  .days h2{
+    font-size: 14px;
+  }
+  .button_days button {
+    width: 40px;
+    font-size: 11px;
+  }
+  .button_days {
+    width: 320px;
+}
+.work_hours{
+  gap: 10px;
+}
+.select2-time{
+  margin-left: 105px;
+}
+}
+@media only screen and (max-width: 460px){
+  .select_time{
+    gap: 8px;
+  }
+}
+@media only screen and (max-width: 430px){
+  .business_days h2{
+    width: 100px;
+  }
+  .b-gap{
+    gap: 5px;
+  }
+  .button_days {
+    width: 300px;
+}
+.select_time {
+  gap: 5px;
+}
+.work_hours{
+  padding: 0;
+}
+.select2-time {
+  margin-left: 95px;
+}
+}

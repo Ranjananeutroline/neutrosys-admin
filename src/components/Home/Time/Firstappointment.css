@@ -1,0 +1,54 @@
+.inner-main{
+     /* border: 1px solid;  */
+}
+.inner-time-detail
+{
+    display: flex;
+    /* border: 1px solid; */
+}
+.modaltime-icon{
+    font-size: 30px;
+    color: white;
+}
+.modaltime-icon svg{
+    margin-bottom: 15px;
+}
+.inner-main{
+    background: #9AC5F4;
+    padding: 0 0 0 2rem;
+}
+.inner-time-detail h6{
+    padding: 0 0 0 1rem;
+    font-size: 22px;
+    color: white;
+}
+.modaltime-p{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.second{
+    /* background: red; */
+    padding: 20px 35px 8px 35px;
+}
+.second p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 1075px){
+    .second{
+        max-height: 400px;
+        overflow: auto;
+        margin-bottom: 1.5rem;
+        padding: 20px 35px 0 35px
+    }
+   }
+   @media only screen and (max-width: 620px){
+    .inner-main{
+        padding: 0 0 0 1rem;
+    }
+    .second {
+        padding: 20px 25px 0 25px;
+    }
+   }

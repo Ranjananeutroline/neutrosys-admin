@@ -1,0 +1,364 @@
+
+.dashboard-main{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  /* background: #f3f7f9b0; */
+}
+
+.summ-div{
+  background: #ebe9e9b6;
+}
+.cards-div{
+  display: flex;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+.cards-box{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 1rem!important;
+}
+.cards-box:hover{
+  transform: scale(1.03);
+transition-duration: 1s;
+}
+.see-all:hover{
+  cursor: pointer;
+}
+.see-all p{
+  font-size: 11px;
+}
+.see-change:hover{
+  color: gray;
+}
+
+
+
+@media only screen and (max-width: 1040px) {
+  .dashboard-main{
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .dashboard-main{
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 1075px) {
+  .appo-div{
+      width: 100%;
+      margin-left: 60px;
+  }
+  .review{
+      gap: 0.5rem!important;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .appo-div{
+      gap: 10px!important;
+  }
+  
+}
+@media only screen and (max-width: 864px) {
+  .review{
+    padding-left: 0!important;
+}
+  
+}
+@media only screen and (max-width: 869px) {
+  .appo-div{
+      margin-left: 5px!important;
+  }
+  
+}
+@media only screen and (max-width: 804px) {
+  .review{
+    width: 175px!important;
+  }
+  
+}
+@media only screen and (max-width: 853px) {
+  .appo-div{
+      gap: 0.5rem
+  }
+  .appo-div img{
+      height: 16px;
+      width: 16px;
+  }
+  .appo-div p{
+      font-size: 14.5px;
+  }
+}
+@media only screen and (max-width: 819px) {
+  .summ-div{
+     padding-left: 1rem;
+     padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 968px){
+  .appo-div{
+      justify-content: center;
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 581px){
+  .appo-div{
+      margin-left: 0!important;
+      text-align: left!important;
+  }
+  
+}
+@media only screen and (max-width: 737px){
+  
+  .appo-div{
+      justify-content: center;
+  }
+  .inner-sum p{
+      font-size: 15px!important;
+
+  }
+}
+@media only screen and (max-width: 795px) {
+  .dashboard-main{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+}
+@media only screen and (max-width: 645px){
+  .first-inner h2{
+    font-size: 15px;
+  }
+  .inner-sum p{
+    font-size: 13.25px!important;
+  }
+  .review{
+    gap: 0.2rem!important;
+  }
+  .review p{
+    padding-top: 2px;
+  }
+  .review img{
+    height: 23px;
+    width: 23px;
+  }
+}
+@media only screen and (max-width: 615px) {
+  /* .cards-box{
+      width: 215px;
+  } */
+  .card-title{
+      font-size: 14px;
+  }
+  .p-img p{
+      font-size: 15px;
+  }
+  .p-img img{
+      height: 20px;
+      width: 20px;
+  } 
+}
+@media only screen and (max-width: 607px){
+  .inner-sum {
+    padding: 0 0.5rem 0 0.5rem!important;
+}
+.first-inner h2{
+  width: 85px!important;
+}
+}
+@media only screen and (max-width: 535px){
+  .first-inner h2 {
+    width: 75px!important;
+}
+.appo-div{
+  gap: 5px!important;
+}
+.review img {
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+}
+}
+@media only screen and (max-width: 515px){
+  
+  .cards-box{
+      width: 215px;
+  }
+  .inner-sum {
+      padding: 0 0.5rem 0 0.5rem!important;
+  }
+  .inner-sum h2{
+      font-size: 15.5px;
+     }
+     .inner-sum img{
+      height: 14px;
+      width: 14px;
+     }
+     .inner-sum p{
+      font-size: 13px!important;
+     }
+     .review p{
+      font-size: 13px!important;
+     }
+     .review img{
+      height: 15px;
+      width: 15px;
+      margin-top: 3px;
+     }
+     .dashboard-main{
+      padding-left: 1rem!important;
+      padding-right: 1rem!important;
+  }
+} 
+@media only screen and (max-width: 590px){
+  .review{
+    width: 160px!important;
+  }
+}
+@media only screen and (max-width: 566px) {
+ .cards-div{
+  width: 100%;
+ }
+ .cards-box{
+  width: 270px;
+  height: 152px;
+  padding: 1rem 1.5rem;
+}
+.card-title{
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+.p-img p{
+  font-size: 17px;
+}
+.p-img img{
+  height: 25px;
+  width: 25px;
+} 
+.dash-title{
+  text-align: left;
+}
+.see-all{
+  margin-top: 1.75rem;
+}
+.see-all p{
+  font-size: 12px;
+}
+.summ-div{
+  padding-left: 0;
+  padding-right: 0;
+  background: none;
+  border: none;
+  margin-top: 2rem;
+  border: none!important;
+}
+.inner-sum{
+  background: #ebe9e98a;
+}
+.inner-sum h2{
+  font-size: 15px;
+}
+.review{
+  width: 105px!important;
+}
+}
+@media only screen and (max-width: 490px){
+  .appo-div{
+    margin-left: 10px!important;
+  }
+}
+@media only screen and (max-width: 450px){
+  .inner-sum{
+      height: auto!important;
+      padding: 0.5rem!important;
+  }
+  .inner-sum p{
+    font-size: 12px!important;
+  }
+  .summ-div{
+      height: auto!important;
+  }
+  .inner-sum h2{
+      font-size: 13px!important;
+  }
+.appo-div{
+  margin-left: 0!important;
+}
+}
+@media only screen and (max-width: 425px){
+  .first-inner h2{
+    width: 70px!important;
+  }
+}
+@media only screen and (max-width: 416px){
+  .appo-div{
+      margin-left: 0!important;
+  }
+  
+}
+@media only screen and (max-width: 408px) {
+  .inner-sum h2{
+      font-size: 13.5px!important;
+  }
+  .appo-div p{
+      font-size: 12px!important;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .first-inner{
+      width: 50%;
+  }
+  .first-inner h2{
+      width: 50%;
+  }
+  .inner-sum h2{
+      font-size: 13px!important;
+  }
+  .review{
+      padding-left: 0;
+      width: 50%;
+  }
+}
+
+@media only screen and (max-width: 347px) {
+  .first-inner{
+      width: 40%;
+  }
+  .review{
+      padding-left: 0;
+      width: 40%;
+      gap: 0.2rem;
+  }
+  .review p{
+      font-size: 12px!important;
+  }
+  .cards-box{
+      width: 280px;
+      height: 155px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .appo-div{
+      margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 985px) {
+  .inner-sum{
+      padding: 0 1rem 0 1rem;
+  }
+  .appo-div{
+      margin-left: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 1253px) and (max-width: 1300px) {
+  .dashboard-main{
+      padding-left: 2rem!important;
+      padding-right: 2rem!important;
+  }
+}

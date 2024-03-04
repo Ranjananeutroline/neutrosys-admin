@@ -1,0 +1,17 @@
+
+@media (max-width: 768px) {
+    .mobile-text {
+      display: none;
+    }
+    .NavSidebar {
+      display: none;
+    }
+    .NavSidebar.open {
+      display: block;
+    }
+  }
+  @media (max-width: 470px){
+    .nav-svg{
+      font-size: 12.5px;
+    }
+  }

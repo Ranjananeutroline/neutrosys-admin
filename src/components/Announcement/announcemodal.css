@@ -1,0 +1,11 @@
+
+  .customModal {
+    background:none;
+    padding:0;
+  }
+
+  .react-responsive-modal-modal{
+    border-radius: 10px!important;
+    padding: 0;
+    margin: 0;
+  }

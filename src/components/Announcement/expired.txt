@@ -1,0 +1,137 @@
+<div className="flex gap-8 flex-wrap">
+      {/* <div className="flex gap-4  ">
+        <div className="flex flex-col gap-5"> */}
+      <h2 className=" px-[4px] py-[6px] mx-5 flex items-center justify-center bg-white rounded-[10px] border shadow-sm text-[14px] md:text-[18px] font-[600] text-[#828282]">
+            Offers
+          </h2>
+      <div className="w-[100%] sm:w-[450px] h-[145px] rounded-[7px] bg-white">
+        <div className="w-[100%] sm:w-[450px] h-[50px] bg-[#8FCEDD] rounded-t-[7px] flex items-center justify-center">
+          <h2 className="text-white text-[17px] font-[600]">Offers</h2>
+        </div>
+        <div className=" flex w-full px-2 md:px-8 py-[17px] justify-between ">
+          <div className="flex gap-4">
+            <img
+              src={radio}
+              alt="radio"
+              className="w-[12x] h-[12px] mt-0 md:mt-1"
+            />
+            <p className="text-[12px] md:text-[16px]">
+              20% off for 30 min consultant
+            </p>
+          </div>
+          <div className="flex gap-2 md:gap-1 cursor-pointer ">
+            <p className="text-[10px] md:text-[14px] text-[#4A55A2] ml-[20px] md:ml-[50px] font-[500] min-w-[50px]">
+              Jun 15 - 16
+            </p>
+            <img
+              src={right}
+              alt="right"
+              className="w-[12px] h-[16px] md:w-[15px] md:h-[18px]"
+            />
+          </div>
+        </div>
+        <div className="flex px-4 items-center justify-between">
+          <p className="text-[12px] md:text-[14px] text-[#6A5F5F]">Limited</p>
+          <p className="text-[12px] md:text-[14px] text-[#6A5F5F] mr-[10px]">
+            20 views
+          </p>
+        </div>
+      </div>
+      {/* <div className="w-[100%] h-[145px] rounded-[7px] bg-white">
+            <div className="w-[100%]  h-[50px] bg-[#8FCEDD] rounded-t-[7px] flex items-center justify-center">
+              <h2 className="text-white text-[12px] md:text-[16px] font-[600]">
+                Offers
+              </h2>
+            </div>
+            <div className=" flex w-full px-2 md:px-8 py-[17px] justify-between ">
+              <div className="flex items-center gap-4">
+                <img
+                  src={radio}
+                  alt="radio"
+                  className="w-[12x] h-[12px] -mt-1"
+                />
+                <p className="text-[12px] md:text-[16px]">
+                  20% off for 30 min consultant
+                </p>
+              </div>
+
+              <div className="flex items-center gap-0 md:gap-1" onClick={""}>
+                <p className="text-[10px] md:text-[14px] text-[#4A55A2] ml-[10px] font-[500] min-w-[50px]">
+                  Jun 15 - 16
+                </p>
+
+                <img src={right} alt="right" className="w-[15px] h-[18px]" />
+              </div>
+            </div>
+            <div className="flex items-center justify-end w-full px-4 gap-1 mb-3">
+              <p className="text-[8px] md:text-[11px] text-gray-600">Reuse</p>
+              <img src={edit} alt="edit" className="w-[10px] h-[12px]" />
+            </div>
+          </div>
+          <div className="w-[100%] sm:w-[450px] md:h-[145px] rounded-[7px] bg-white">
+            <div className="w-[100%] sm:w-[450px] h-[50px] bg-[#8FCEDD] rounded-t-[7px] flex items-center justify-center">
+              <h2 className="text-white text-[12px] md:text-[16px] font-[600]">
+                Offers
+              </h2>
+            </div>
+            <div className=" flex w-full px-2 md:px-8 py-[17px] justify-between ">
+              <div className="flex items-center gap-4">
+                <img
+                  src={radio}
+                  alt="radio"
+                  className="w-[12x] h-[12px] -mt-1"
+                />
+                <p className="text-[12px] md:text-[16px]">
+                  20% off for 30 min consultant
+                </p>
+              </div>
+
+              <div className="flex items-center gap-0 md:gap-1" onClick={""}>
+                <p className="text-[10px] md:text-[14px] text-[#4A55A2] ml-[10px] font-[500] min-w-[50px]">
+                  Jun 15 - 16
+                </p>
+
+                <img src={right} alt="right" className="w-[15px] h-[18px]" />
+              </div>
+            </div>
+            <div className="flex items-center justify-end w-full px-4 gap-1 mb-3">
+              <p className="text-[8px] md:text-[11px] text-gray-600">Reuse</p>
+              <img src={edit} alt="edit" className="w-[10px] h-[12px]" />
+            </div>
+          </div> */}
+      {/* </div>
+      </div> */}
+      {/* annouceent */}
+      {/* <div className="flex flex-col gap-5">
+        <h2 className=" px-[4px] py-[6px] flex items-center justify-center bg-white rounded-[10px] border shadow-sm text-[14px] md:text-[18px] font-[600] text-[#828282]">
+          Announcement
+        </h2>
+        <div className="w-[100%] sm:w-[450px] md:h-[145px] rounded-[7px] bg-white">
+          <div className="w-[100%] sm:w-[450px] h-[50px] bg-[#8FCEDD] rounded-t-[7px] flex items-center justify-center">
+            <h2 className="text-white text-[12px] md:text-[16px] font-[600]">
+              Announcement
+            </h2>
+          </div>
+          <div className=" flex w-full px-2 md:px-8 py-[17px] justify-between ">
+            <div className="flex items-center gap-4">
+              <img src={radio} alt="radio" className="w-[12x] h-[12px] -mt-1" />
+              <p className="text-[12px] md:text-[16px]">
+                20% off for 30 min consultant
+              </p>
+            </div>
+
+            <div className="flex items-center gap-0 md:gap-1" onClick={""}>
+              <p className="text-[10px] md:text-[14px] text-[#4A55A2] ml-[10px] font-[500] min-w-[50px]">
+                Jun 15 - 16
+              </p>
+
+              <img src={right} alt="right" className="w-[15px] h-[18px]" />
+            </div>
+          </div>
+          <div className="flex items-center justify-end w-full px-4 gap-1 mb-3">
+            <p className="text-[8px] md:text-[11px] text-gray-600">Reuse</p>
+            <img src={edit} alt="edit" className="w-[10px] h-[12px]" />
+          </div>
+        </div>
+      </div> */}
+    </div>

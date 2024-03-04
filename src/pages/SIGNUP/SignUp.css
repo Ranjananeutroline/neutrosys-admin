@@ -1,0 +1,10 @@
+@media screen and (max-width: 890px){
+    .signup-main{
+        gap: 0.5rem!important;
+    }
+    }
+    @media screen and (max-width: 1075px){
+        .signup-main{
+            margin-bottom: 2rem!important;
+        }
+        }

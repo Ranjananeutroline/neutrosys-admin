@@ -1,0 +1,14 @@
+
+.custommodal{
+  font-size: 40px;
+  top: 30%;
+  width: 100%;
+  max-width: 500px;
+  max-height: 600px;
+}
+.customModalTry {
+  margin: 0 !important;
+  background:none;
+  padding:0 !important;
+}
+

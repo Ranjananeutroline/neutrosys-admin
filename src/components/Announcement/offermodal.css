@@ -1,0 +1,125 @@
+/* .react-responsive-modal-overlay{
+  background: #21252980!important;
+} */
+.customModal {
+  background: none;
+  padding: 0;
+  box-shadow: rgb(0 0 0 / 6%) 0px 3px 8px;
+}
+.customModalCalender {
+  background-color: #f8f8fa !important;
+}
+.customButton2{
+   top: 8px !important;
+  right: 8px;
+  padding: 10px;
+  width: 40px;
+}
+.customButton{
+    top: -5px !important;
+    right: 8px;
+    padding: 10px;
+    width: 60px
+}
+.add-input:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438) !important;
+}
+.off-input{
+  border: 1px solid rgba(128, 128, 128, 0.178);
+  height: 45px;
+  margin-top: 5px;
+  width:385px;
+}
+.off-input:focus{
+  border: 1.5px solid rgba(83, 211, 228, 0.438) !important;
+}
+/* .add-decript{
+  border: none;
+} */
+.add-decript:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438);
+}
+.add-decript:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  /* Your styling here */
+  color: #dd460a!important;
+  /* background: orange!important; */
+  /* Add other styles as needed */
+}
+
+
+@media only screen and (max-width: 1040px) {
+  .announce-main{
+      padding-left: 2.5rem!important;
+      padding-right: 2.5rem!important;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .announce-main{
+      padding-left: 1.8rem!important;
+      padding-right: 1.8rem!important;
+  }
+}
+@media only screen and (max-width: 795px) {
+  .announce-main{
+      padding-left: 1.5rem!important;
+      padding-right: 1.5rem!important;
+  }
+}
+@media only screen and (max-width: 485px){
+ .select-offer-main{
+  width: 80%;
+ } 
+}
+@media only screen and (max-width: 430px){
+  .select-offer-main{
+   width: 70%;
+  } 
+  .btn-select{
+    font-size: 13px;
+    height: 40px;
+  }
+ }
+@media screen and (max-width: 767px){
+  .add-offers-form{
+    padding-top: 1rem;
+    width: 350px;
+  }
+  .add-offers-form h1{
+    padding-bottom: 0.5rem;
+  }
+  .offers-daterange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88.5%;
+  }
+  .from-to-div{
+    width: 140px;
+  }
+  .off-date{
+    width: 130px;
+  }
+  .off-d{
+    padding-bottom: 1rem!important;
+  }
+}
+@media screen and (max-width: 370px){
+.add-offers-form {
+    width: 325px;
+}
+.from-to-div {
+  width: 120px;
+}
+.offers-daterange {
+  width: 87%;
+}
+}
+/* .react-responsive-modal-closeButton {
+  top: 10px !important;
+  right: 8px;
+  padding: 10px;
+  width: 40px;
+} */

@@ -1,0 +1,48 @@
+.customButton {
+  top: 12px;
+  right: 14px;
+}
+.customModal2 {
+  padding: 0%;
+  border-radius: 0;
+  margin: 0;
+}
+.customModal3 {
+  padding: 0%;
+  background-color: #fafafa;
+}
+.customButton2 {
+  top: 12px;
+  right: 14px;
+  
+}
+.todayOverlay{
+  background: rgb(0 0 0 / 60%)!important;
+}
+.todayModal{
+  box-shadow: 0 12px 15px 0 rgb(0 0 0 / 5%)!important;
+}
+.upModal{
+  box-shadow: 0 12px 15px 0 rgb(0 0 0 / 0%)!important;
+}
+.completeOverlay{
+  background: rgb(0 0 0 / 12%)!important;
+}
+.completeModal{
+  box-shadow: 0 12px 15px 0 rgb(0 0 0 / 0%)!important;
+}
+.totalOverlay{
+  background: rgb(0 0 0 / 7%)!important;
+}
+.totalModal{
+  box-shadow: 0 12px 15px 0 rgb(0 0 0 / 0%)!important;
+}
+ .up-overlay{
+  background: rgb(0 0 0 / 19%)!important;
+} 
+/* .customOverlay{
+  background: rgb(0 0 0 / 13%);
+} */
+/* .react-responsive-modal-overlay{
+  background: #21252980!important;
+} */

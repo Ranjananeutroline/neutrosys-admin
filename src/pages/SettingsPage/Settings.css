@@ -1,0 +1,21 @@
+.settings-main{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* background: #f3f7f9b0; */
+  }
+  @media only screen and (max-width: 1075px){
+  .settings-main{
+    width: 92%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    /* background: #f3f7f9b0; */
+  }
+}
+@media only screen and (max-width: 630px){
+  .set-main2{
+    width: 100%;
+  }
+}

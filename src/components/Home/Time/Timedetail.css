@@ -1,0 +1,519 @@
+.body-div{
+    padding-bottom: 5rem;
+    background: rgba(190, 188, 188, 0.103);
+}
+.time-title{
+    /* border: 1px solid; */
+    width: 70%;
+    margin: auto;
+    padding: 0.5rem 0 0.2rem 0;
+}
+.time-title h5{
+     color: #068FFF;  
+    margin-left: 0.5rem;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.time-box{
+     /* border: 1px solid;   */
+    width: 70%;
+    margin: auto;
+    padding: 0.5rem 0;
+    
+}
+.time-col{
+   
+    /* border: 0.5px solid #c2e9fbb9;   */
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0 10px 1.5rem 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 200px;
+    width: 300px;
+}
+.time-col:nth-child(1){
+    background: linear-gradient(180deg, rgba(218, 255, 251, 0.5) 0%, rgba(218, 255, 251, 0) 100%);
+} 
+.time-col:nth-child(2){
+    background: linear-gradient(180deg, rgba(213, 235, 186, 0.5) 0%, rgba(213, 235, 186, 0) 100%);
+} 
+.time-col:nth-child(3){
+    background: linear-gradient(180deg, rgba(247, 197, 209, 0.329) 0%, rgba(247, 197, 209, 0) 100%);
+} 
+.time-col:nth-child(4){
+    /* background: linear-gradient(180deg, rgb(247 197 209 / 38%) 0%, rgba(247, 197, 209, 0) 100%);   */
+    background: linear-gradient(180deg, #8587192e 0%, rgba(247, 197, 209, 0) 100%);
+}
+.time-col:nth-child(5){
+    /* background: linear-gradient(180deg, rgba(218, 255, 251, 0.5) 0%, rgba(218, 255, 251, 0) 100%);   */
+    background: linear-gradient(180deg, #a79ef745 0%, rgb(218 255 251 / 0%) 100%);
+}
+.time-col:nth-child(6){
+    /* background: linear-gradient(180deg, rgba(213, 235, 186, 0.5) 0%, rgba(213, 235, 186, 0) 100%);   */
+    background: linear-gradient(180deg, rgba(132, 252, 146, 0.315) 0%, rgba(213, 235, 186, 0) 100%);
+}
+.time-col:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    /* transform: scale(1.05);
+	transition-duration: 1s; */
+    /* background: rgba(110, 212, 235, 0.363); */
+} 
+.inner-time{
+    display: flex;
+    padding: 0 0.5rem 0 0;
+}
+.inner-time h6{
+    font-family: sans-serif;
+    font-size: 15.2px;
+    /* color: #068FFF;  */
+}
+.time-icon{
+    font-size: 30px;
+    color: #5A96E3; 
+}
+.time-p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.inner-second{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+    padding-top: 0.5rem;
+    
+}
+.more-btn{
+    display: flex;
+    border: none;
+    padding: 5px 12px;
+    background: none;
+    margin-top: 1.5rem;
+    font-size: 13.5px;
+    color: #2E4FEB; 
+    font-family: serif; 
+   
+}
+.more-btn svg{
+    font-size: 10px; 
+    margin-top: 4px;
+}
+/* .more-btn:hover{
+    transform: scale(1.05);
+	transition-duration: 1s;
+} */
+.modal-width{
+    max-width: 60%!important;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.modal-box{
+    /* border-radius: 15px; */
+}
+.modalheader .btn-close{
+    font-size: 13px;
+    --bs-btn-close-focus-shadow: none;
+    padding: 8px 15px 0 0!important;
+}
+
+.modal-header{
+    border-bottom: none!important;
+}
+.modalheader{
+    border-bottom: none;
+    padding: 10px 10px 0 0;
+    background: #9AC5F4;
+    justify-content: right;
+}
+.body-modal{
+    padding: 1rem 2rem;
+    height: 300px;
+}
+.nxt-btn{
+    border: none;
+   
+    background: none;
+    /* background: #8CC0DE;  */
+    border-radius: 10px;
+    margin-right: 0.5rem; 
+    
+}
+ .nxt-btn svg{
+    color: #57cc99;
+    margin-bottom: 2px; 
+    font-size: 15px;
+    stroke-width: 1.5;
+} 
+.nxt-btn .tooltiptext
+{
+    visibility: hidden;
+    width: 70px;
+    /* background-color: skyblue; */
+    /* color: rgb(3, 141, 221); */
+    color: gray;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 5px;
+    font-family: sans-serif;
+    /* Position the tooltip */
+    position: relative; 
+    z-index: 1;
+    top: 2%;
+    right: 80%;
+    font-size: 11px;
+}
+.nxt-btn:hover .tooltiptext
+{
+    visibility: visible;
+}
+
+@media only screen and (max-width: 1075px){
+    .modal-width{
+        margin-top: 1rem;
+    } 
+   }
+@media only screen and (max-width: 864px){
+ .nxt-btn{
+    margin-left: 3.5rem;
+ }  
+}
+@media only screen and (max-width: 862px){
+    .inner-time{
+        padding: 0;
+    } 
+    .second-div{
+        padding: 0.7rem 0px 0px 1rem;
+    }
+   }
+   @media only screen and (max-width: 837px){
+    .inner-second{
+        padding-left: 0;
+    } 
+    .nxt-btn{
+        margin-left: 3.3rem;
+     }
+   }
+   @media only screen and (max-width: 820px){
+    .time-title{
+        width: 65%;
+    }
+    .time-box{
+        width: 65%;
+    }
+   }
+   @media only screen and (max-width: 765px){
+    .time-title{
+        width: 70%;
+    }
+    .time-box{
+        width: 70%;
+    }
+   }
+   @media only screen and (max-width: 720px){
+    .time-title{
+        width: 75%;
+    }
+    .time-box{
+        width: 75%;
+    }
+   }
+   @media only screen and (max-width: 660px){
+    .time-title{
+        width: 80%;
+    }
+    .time-box{
+        width: 80%;
+    }
+   }
+   @media only screen and (max-width: 620px){
+    .time-title{
+        width: 90%;
+    }
+    .time-box{
+        width: 90%;
+    }
+    .modal-width{
+        max-width: 70%!important;
+        margin-top: 1rem!important;
+    }
+    .modal-box{
+        padding-left: 0!important;
+    }
+   }
+   @media only screen and (max-width: 575px){
+    .modal-width{
+        margin: auto!important;
+        max-width: 75%!important;
+    }
+    .modal-box{
+        margin-top: 1rem!important;
+    }
+   }
+   @media only screen and (max-width: 550px){
+    .time-title{
+        width: 95%;
+    }
+    .time-box{
+        width: 95%;
+    }
+   }
+   @media only screen and (max-width: 518px){
+    .second-div{
+        padding: 0.7rem 0px 0px 0.8rem!important;
+    }
+    .nxt-btn{
+        margin-left: 1.5rem;
+    }
+   }
+   @media only screen and (max-width: 500px){
+    .modal-width{
+        margin: auto!important;
+        max-width: 95%!important;
+    }
+   }
+   @media only screen and (max-width: 525px){
+    .nxt-btn{
+        margin-left: 2.5rem;
+    }
+    .inner-second{
+        padding-top: 0.5rem;
+    }
+   }
+   @media only screen and (max-width: 498px){
+    .nxt-btn{
+        margin-left: 2rem;
+    }
+   }
+   @media only screen and (max-width: 487px){
+    .clock-img{
+        height: 35px!important;
+        width: 35px!important;
+    }
+    .inner-time h6{
+        font-size: 14px;
+    }
+    .time-p{
+        font-size: 12px;
+    }
+    .nxt-btn{
+        margin-left: 1.5rem;
+    }
+   }
+   @media only screen and (max-width: 460px){
+    .time-col{
+        padding: 0.8rem!important;
+        margin: 0 8px 1rem 8px;
+    }
+    .time-title h5{
+        font-size: 18.5px;
+    }
+    .inner-time h6{
+        font-size: 13.5px;
+    }
+    .nxt-btn{
+        margin-left: 1.5rem;
+    }
+   }
+   @media only screen and (max-width: 435px){
+    .time-col{
+        padding: 0.7rem!important;
+        margin: 0 8px 1rem 8px;
+    }
+    .inner-time h6{
+        font-size: 13px;
+    }
+    .time-p{
+        font-size: 11.5px;
+    }
+    .nxt-btn{
+        margin-left: 1rem;
+    }
+   }
+   @media only screen and (max-width: 415px){
+    .time-col{
+        padding: 0.6rem!important;
+        margin: 0 5px 1rem 5px;
+    }
+    .inner-time h6{
+        font-size: 12.5px;
+    }
+    .time-p{
+        font-size: 11px;
+    }
+    .more-btn{
+        font-size: 12.5px;
+    }
+    .nxt-btn{
+        margin-left: 1.2rem;
+    }
+    .nxt-img{
+        height: 20px!important;
+        width: 20px!important;
+    }
+   }
+   @media only screen and (max-width: 382px){
+    
+    .inner-time h6{
+        font-size: 12px;
+    }
+    .more-btn{
+        font-size: 12px;
+    }
+    .nxt-btn{
+        margin-left: 0.5rem;
+    }
+    .second-div {
+        padding: 0.7rem 0px 0px 0.5rem!important;
+    }
+    .clock-img {
+        height: 30px!important;
+        width: 30px!important;
+    }
+   }
+   @media only screen and (max-width: 442px){
+        .more-btn{
+            padding: 5px 8px;
+        }
+   }
+   @media only screen and (max-width: 355px){
+    .inner-time h6{
+        font-size: 11px;
+    }
+    .more-btn{
+        font-size: 11px;
+    }
+    .nxt-btn {
+        margin-left: 0;
+    }
+    .nxt-img{
+        height: 18px!important;
+        width: 18px!important;
+    }
+   }
+   @media only screen and (max-width: 334px){
+    .inner-second{
+        padding-top: 0;
+    }
+   }
+   @media only screen and (max-width: 327px){
+    .inner-second{
+        padding-top: 0;
+    }
+    .more-btn{
+        padding: 8px;
+    }
+   }
+   @media only screen and (max-width: 311px){
+    .more-btn{
+       font-size: 10px;
+    }
+    .nxt-img{
+        height: 16px!important;
+        width: 16px!important;
+    }
+   }
+   @media only screen and (max-width: 300px){
+        .time-title{
+            width: 84%;
+        }
+        .time-box{
+            width: 85%;
+        }
+        .time-col{
+            padding: 0.6rem 1.5rem!important;
+            max-width: 90%!important;
+            margin: 0 auto 1rem auto;
+        }
+        .second-div{
+            padding: 0.7rem 0 0 2rem!important;
+        }
+        .nxt-btn{
+            margin-left: 3rem;
+        }
+   }
+   @media only screen and (max-width: 316px){
+    .more-btn{
+        padding: 5px;
+    }
+   }
+   @media only screen and (min-width: 1140px) and (max-width: 1300px) {
+    .time-box{
+        width: 65%;
+    }
+    .time-title{
+        width: 65%;
+    }
+    .nxt-btn{
+        margin-left: 4.25rem;
+    }
+   }
+   @media only screen and (min-width: 901px) and (max-width: 940px) {
+    .time-box{
+        width: 58%;
+    }
+    .time-title{
+        width: 58%;
+    }
+   }
+   @media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .time-box{
+        width: 53%;
+    }
+    .time-title{
+        width: 53%;
+    }
+   }
+   @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .time-box{
+        width: 52%;
+    }
+    .time-title{
+        width: 52%;
+    }
+   }
+   @media only screen and (min-width: 1481px) and (max-width: 1550px){
+    .modal-width{
+        width: 55%!important;
+    }
+   }
+   @media only screen and (min-width: 1616px) and (max-width: 1780px){
+    .modal-width{
+        width: 53%!important;
+    }
+   }
+   @media only screen and (min-width: 1781px) and (max-width: 1880px){
+    .modal-width{
+        width: 50%!important;
+    }
+   }
+   @media only screen and (min-width: 1881px) and (max-width: 1920px){
+    .modal-width{
+        width: 48%!important;
+    }
+   }
+   @media only screen and (min-width: 1526px) and (max-width: 1664px) {
+    .time-box{
+        width: 55%;
+    }
+    .time-title{
+        width: 55%;
+    }
+   }
+    @media only screen and (min-width: 1665px) and (max-width: 1900px) {
+    .time-box{
+        width: 48%;
+    }
+    .time-title{
+        width: 48%;
+    }
+   }
+   @media only screen and (min-width: 1901px) and (max-width: 1920px) {
+    .time-box{
+        width: 45%;
+    }
+    .time-title{
+        width: 45%;
+    }
+   }
+  

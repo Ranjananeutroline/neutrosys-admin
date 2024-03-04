@@ -1,0 +1,58 @@
+.react-responsive-modal-modal {
+  border-radius: 6px;
+  /* box-shadow: 0px 2px 4px rgba(252, 252, 252, 0.4),
+    0px 7px 13px -3px rgba(234, 232, 232, 0.3); */
+}
+
+
+.closeIconInChangePassword{
+  /* position: absolute; */
+  /* top: -10px; */
+  /* left: 93%; */
+}
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+input {
+  /* border: 1px solid blue; */
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 360px;
+  height: 60px;
+}
+input.input-error,
+select.input-error {
+/* padding: 50px 50px; */
+/* color: red; */
+  border: 1px solid red;
+}
+
+.output-error{
+  border: 1px solid blue;
+}
+.toast-message{
+  
+  width: 500px;
+}
+
+@media screen and (max-width: 890px){
+  .sign-in-btn{
+    width: 95%!important;
+  }
+  }
+  @media screen and (max-width: 850px){
+    .sign-in-right{
+      width: 380px!important;
+    }
+    }
+    @media screen and (max-width: 767px){
+      .sign-in-btn{
+        margin-top: 1rem!important;
+      }
+      }
+      @media screen and (max-width: 460px){
+        .forgetPassword{
+          width: 90%!important;
+        }
+        }

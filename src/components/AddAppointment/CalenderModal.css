@@ -1,0 +1,151 @@
+
+.customModalCalender {
+  background-color: #f8f8fa !important;
+}
+.customModalSucess {
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.add-appoint-form{
+  padding-top: 1rem;
+} 
+.add-input:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438) !important;
+}
+.appoint-form-select:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+}
+.date-select:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+}
+.time-select:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+}
+.date-appoint{
+  width: 50%;
+}
+.time-appoint{
+  width: 50%;
+}
+.appoint-date-form{
+  gap: 0;
+}
+.select-appoint-date:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+}
+.select-appoint-time:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+}
+.select-appoint-date{
+  width: 91%;
+}
+.select-appoint-time{
+  width: 91%;
+}
+.calendar-closebtn{
+  margin-left: 0.5rem;
+  margin-top: 5px;
+}
+.time-select{
+  font-weight: 500!important;
+}
+
+
+@media screen and (max-width: 800px) {
+  .customModalCalender {
+    width: 50%; /* Adjust the width for small screens */
+  }
+}
+@media screen and (max-width: 400px) {
+  .customModalSucess {
+    width: 90%; /* Adjust the width for small screens */
+  }
+}
+@media screen and (max-width: 365px){
+.add-appoint-form {
+    width: 335px!important;
+}
+.appoint-submit-form{
+  margin-top: 0.5rem;
+}
+}
+@media screen and (max-width: 350px){
+  .add-appoint-form {
+      width: 310px!important;
+  }
+  
+  }
+@media screen and (max-width: 767px){
+  .add-appoint-form{
+    width: 350px;
+    padding: 1rem 0.5rem 0 0.5rem;
+  } 
+  .appoint-date-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .appoint-form-select{
+    width: 70%;
+  }
+  .date-appoint{
+    width: 50%;
+  }
+  .time-appoint{
+    width: 50%;
+  }
+  .select-appoint-date{
+    width: 90%;
+  }
+  .select-appoint-time{
+    width: 90%;
+  }
+  .service-select-appoint{
+    /* border: 1px solid; */
+    margin: auto;
+    flex-direction: row;
+    width: 99%;
+    justify-content: space-between;
+}
+.service-select1-appoint{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.service-select2-appoint{
+  width: 95%;
+}
+.service-time{
+  width: 40%;
+}
+.service-time-btn{
+  width: 90%;
+  margin-top: 4.5px;
+}
+.dt-div{
+  display: flex;
+  flex-direction: row;
+}
+.date-input{
+  width: 90%!important;
+}
+.time-select{
+  width: 90%!important;
+}
+}
+@media screen and (max-width: 350px){
+  .dt-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .appoint-form-select{
+    width: 94.5%!important;
+  }
+  .date-input{
+    width: 100%!important;
+  }
+  .time-select{
+    width: 100%!important;
+  }
+}

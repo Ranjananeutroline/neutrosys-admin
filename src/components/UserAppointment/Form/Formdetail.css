@@ -1,0 +1,49 @@
+/* MyForm.css */
+
+/* Styles for the input fields and error messages */
+.form-field {
+    position: relative;
+    width: 100%;
+    margin-right: 2px;
+  }
+  
+  .form-field input {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 39px;
+    margin: 0.4rem 1.5px;
+    padding-left: 12px;
+    background-color: #F5F9FF;
+    outline: none;
+    color: #000;
+    transition: background-color 0.2s ease;
+  }
+  
+  .form-field input:focus {
+    background-color: #FFF;
+  }
+  
+  .form-field p {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding-right: 3px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: red;
+  }
+  
+  /* Styles for the SVG icon */
+  .form-field svg {
+    width: 13px;
+    height: 10px;
+    fill: none;
+    stroke: black;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }

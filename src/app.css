@@ -1,0 +1,16 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x: hidden; */
+  font-family: sans-serif;
+}
+.overall-div{
+  display: flex;
+  overflow: hidden;
+}
+.right-body{
+  background: #f3f7f9b0;
+  
+}
+

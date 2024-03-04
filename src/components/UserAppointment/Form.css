@@ -1,0 +1,257 @@
+.form-body{
+    /* background:#86bbd8; */
+   padding: 1rem 1.2rem 1.5rem 1.2rem;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.modal-90w{
+    max-width: 40%;
+}
+
+.header-form{
+    background: #86bbd8;
+    border: none;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+}
+.modal-header .btn-close{
+    margin: 0;
+  
+}
+/* .modal-content{
+    border-radius: 18px;
+} */
+button.btn-close{
+   font-size: 14px;
+}
+#example-custom-modal-styling-title{
+    color: white;
+    padding: 0px 0 0 15px;
+   /* font-weight: 550; */
+   font-family: sans-serif;
+   font-size: 22px;
+}
+.css-2y464i-MuiInputBase-root-MuiFilledInput-root{
+    border-radius: 10px!important;
+    height: 50px!important;
+    border: 1px solid #e9ecef!important;
+    background-color: #f8f9fa!important;
+}
+.css-leqjib-MuiInputBase-root-MuiFilledInput-root{
+    border-radius: 10px!important;
+    border: 1px solid rgba(128, 128, 128, 0.123)!important;
+    background-color: #f8f9fa!important;
+    height: 90px!important;
+}
+.css-1jg2gny{
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    height: 50px!important;
+    background-color: #f8f9fa!important;
+    border: 1px solid #e9ecef!important;
+}
+.css-12n0rmb{
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    height: 90px!important;
+    background-color: #f8f9fa!important;
+    border: 1px solid #e9ecef!important;
+}
+.css-14x1nlk{
+    font-size: 12.5px!important;
+}
+.css-1njz7x1{
+    font-size: 12.5px!important;
+}
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 12.5px!important;
+}
+.css-1mog9k0-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 12.5px!important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none; 
+}
+label{
+    font-family: sans-serif;
+    font-size: 13.5px;
+}
+.css-1mog9k0-MuiFormLabel-root-MuiInputLabel-root{
+    top: 4px!important;
+}
+.buttonsubmit{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.submit-btn{
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px!important;
+  background: #06aed5;
+  color: white;
+  text-transform: none!important;
+  font-family: sans-serif;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.submit-btn:hover{
+    background: #06afd5c9;
+}
+.Toastify__toast-container--top-center{
+    top: 3em!important;
+    border-radius: 10px!important;
+}
+.Toastify__toast-body{
+    display: flow-root!important;
+    text-align: -webkit-center!important;
+    padding: 0!important;
+   
+}
+.Toastify__toast{
+    margin-bottom: 0!important;
+}
+
+.Toastify__toast-icon{
+    width: 22px!important;
+    color: white!important;
+    padding-top: 0.25rem!important;
+}
+.Toastify__toast-icon svg{
+    /* fill: #50b2c0!important; */
+    fill: #57cc99!important; 
+}
+.Toastify__toast-theme--light {
+     background: white!important; 
+     height: 100px!important;
+    /* background:  #0aaf0afc!important; */
+}
+.Toastify__toast-body > div:last-child{
+    /* width: 90%!important; */
+    color: green!important; 
+    /* color: #50b2c0!important; */
+    padding-bottom: 5px!important;
+    padding-top: 5px;
+}
+.Toastify__close-button--light{
+    color: green!important; 
+    /* color: #50b2c0!important; */
+    opacity: 1!important;
+}
+.Toastify__progress-bar--animated {
+    background: #57cc99!important; 
+    /* background: #50b2c0!important; */
+}
+
+/* .Toastify__toast{
+    justify-content: center!important;
+    padding: 8px 0!important;
+} */
+
+
+
+
+@media only screen and (max-width: 975px){
+    .form-col{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+}
+@media only screen and (max-width: 850px){
+    .modal-90w{
+        max-width: 70%!important;
+        margin: 1rem auto!important;
+    }
+}
+@media only screen and (max-width: 630px){
+     .modal-90w{
+        max-width: 80%!important;
+        margin: 1rem auto!important;
+    } 
+}
+@media only screen and (max-width: 500px){
+    .modal-90w{
+        max-width: 90%!important;
+        margin-top: 2.5rem!important;
+    }
+    #example-custom-modal-styling-title{
+        font-size: 20px!important;
+    }
+    .form-body {
+        padding: 0.5rem 1.2rem 1.1rem 1.2rem;
+    }
+    .css-2y464i-MuiInputBase-root-MuiFilledInput-root{
+        height: 50px!important;
+    }
+    .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+        font-size: 12px!important;
+    }
+    .css-1mog9k0-MuiFormLabel-root-MuiInputLabel-root {
+        font-size: 12px!important;
+    }
+    .buttonsubmit{
+        margin-top: 0.8rem!important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .modal-90w{
+        max-width: 92%!important;
+    }
+}
+@media only screen and (max-width: 480px){
+    .Toastify__toast-container--top-center{
+        width: 65%!important;
+        left: 4.5rem!important;
+
+    }
+}
+@media only screen and (max-width: 460px){
+    .Toastify__toast-container--top-center{
+        left: 4rem!important;
+        width: 70%!important;
+    }
+}
+@media only screen and (max-width: 410px){
+    .Toastify__toast-body > div:last-child{
+        font-size: 15px!important;
+    }
+}
+@media only screen and (max-width: 375px){
+    .form-body {
+        padding: 0.5rem 0.7rem 1.1rem 0.7rem;
+    }
+    .modal-90w{
+        max-width: 95%!important;
+    }
+}
+@media only screen and (max-width: 371px){
+    .Toastify__toast-container--top-center{
+        left: 2.5rem!important;
+        width: 78%!important;
+    }
+    .Toastify__toast-body > div:last-child{
+        font-size: 14px!important;
+    }
+}
+@media only screen and (max-width: 337px){
+    .modal-90w{
+        max-width: 98%!important;
+    }
+    .Toastify__toast-body > div:last-child{
+        font-size: 13px!important;
+    }
+    .Toastify__toast-theme--light {
+        height: 90px!important;
+   }
+}
+@media only screen and (max-width: 295px){
+    .Toastify__toast-container--top-center{
+        left: 1.8rem!important;
+        width: 80%!important;
+    }
+}

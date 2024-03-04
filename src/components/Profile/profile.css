@@ -1,0 +1,61 @@
+.react-responsive-modal-modal {
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+/* @media (max-width: 640px) {
+  .react-responsive-modal-modal {
+    margin: 0 5px auto;
+    width: 100%;
+  }
+} */
+.choose-img{
+  display: none;
+}
+ 
+.edit-img:hover .choose-img{
+  display: block;
+  }
+input:focus{
+  border: 1px solid rgba(83, 211, 228, 0.438)!important;
+  background: white!important;
+}
+
+
+.toast-message {
+  padding-left: 200px;
+}
+
+@media only screen and (max-width: 1023px){
+  .profile-main{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .profile-main{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px){
+  .profile-main{
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 430px){
+  .customModalTry{
+    width: 95%;
+  }
+  .bottom-edit{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+    gap: 1rem!important;
+  }
+}
+@media only screen and (max-width: 768px){
+  .profile-main{
+    margin-top: 2rem;
+  }
+  .pro-title{
+    font-size: 1.8rem;
+  }
+}
